@@ -8,6 +8,7 @@ def handler(event, context):
     movieName = event["headers"]["moviename"])
     uploaderName = event["headers"]["uploadername"])
     fullFilename = movieID + "_" + movieName + "_" + uploadername
+    fileContent = event.body
     try:
         data = s3.put_object(
             Bucket="movilti-user-reviews",
