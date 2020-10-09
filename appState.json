@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "videouploader2.py",
         "cursor": {
-          "lineNumber": 5,
-          "column": 49
+          "lineNumber": 18,
+          "column": 48
         },
         "config": {
           "runtime": "python3.8",
@@ -49,6 +49,16 @@
           "apiName": "VideoUploaderAPI",
           "stageName": "test"
         }
+      },
+      "s3moviltiUserReviews": {
+        "name": "s3moviltiUserReviews",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "movilti-user-reviews"
+          }
+        }
       }
     },
     "customTemplate": {
@@ -68,7 +78,15 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.12.27",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -80,7 +98,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1602206993792
+    "lastSave": 1602207148616
   },
   "VCS_STATE": {
     "provider": "GitHub",
