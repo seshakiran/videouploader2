@@ -1,0 +1,92 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "df6fd25c-f39d-4b76-90d1-f1a54db5e3a2": {
+        "id": "df6fd25c-f39d-4b76-90d1-f1a54db5e3a2",
+        "parent": null,
+        "name": "videouploader2.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "videouploader2.py",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 46
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "videouploader2"
+        },
+        "triggers": [
+          {
+            "resourceName": "httpApigVideoUploaderAPI",
+            "config": {
+              "defaultRoute": false,
+              "method": "PUT",
+              "route": "/upload"
+            }
+          }
+        ],
+        "lastUpdated": 1602204732743
+      }
+    },
+    "openFiles": [
+      "df6fd25c-f39d-4b76-90d1-f1a54db5e3a2"
+    ],
+    "currentFileId": "df6fd25c-f39d-4b76-90d1-f1a54db5e3a2",
+    "resources": {
+      "httpApigVideoUploaderAPI": {
+        "name": "httpApigVideoUploaderAPI",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 2,
+          "mode": 0,
+          "apiName": "VideoUploaderAPI",
+          "stageName": "test"
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.3.1",
+    "projectName": "videouploader2",
+    "projectDescription": "video uploader with python",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1602205390387
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "videouploader2",
+      "url": "https://github.com/seshakiran/videouploader2"
+    }
+  }
+}
