@@ -7,6 +7,7 @@ def handler(event, context):
     movieID = event["headers"]["movieid"])
     movieName = event["headers"]["moviename"])
     uploaderName = event["headers"]["uploadername"])
+    token = event["headers"]["token"]
     fullFilename = movieID + "_" + movieName + "_" + uploadername
     fileContent = event.body
     try:
