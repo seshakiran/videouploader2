@@ -12,7 +12,7 @@
         "filePath": "videouploader2.py",
         "cursor": {
           "lineNumber": 11,
-          "column": 14
+          "column": 74
         },
         "config": {
           "runtime": "python3.8",
@@ -32,7 +32,7 @@
             }
           }
         ],
-        "lastUpdated": 1602204732743
+        "lastUpdated": 1602262626002
       }
     },
     "openFiles": [
@@ -64,7 +64,7 @@
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -98,7 +98,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1602215645556
+    "lastSave": 1602262640202
   },
   "VCS_STATE": {
     "provider": "GitHub",

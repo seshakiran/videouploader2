@@ -8,7 +8,7 @@ def handler(event, context):
     movieName = event["headers"]["moviename"]
     uploaderName = event["headers"]["uploadername"]
     token = event["headers"]["token"]
-    fullFileName = movieID + "_" + movieName + "_" + uploaderName
+    fullFileName = movieID + "_" + movieName + "_" + uploaderName + ".mp4"
     fileContent = event["body"]
     try:
         data = s3.put_object(
