@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "videouploader2.py",
         "cursor": {
-          "lineNumber": 12,
-          "column": 32
+          "lineNumber": 11,
+          "column": 63
         },
         "config": {
           "runtime": "python3.8",
@@ -98,7 +98,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1602214907660
+    "lastSave": 1602215503941
   },
   "VCS_STATE": {
     "provider": "GitHub",
